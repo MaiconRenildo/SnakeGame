@@ -68,11 +68,8 @@ main{
   margin-bottom: 2px;
   display: none;
 }
-@media(min-width:500px){
-  main{
-    height: 100vh;
-  }
+@media(max-width:320px){
   .botoes{
-    display: none;
+    width: 300px;
   }
 }
